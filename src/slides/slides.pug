@@ -1,0 +1,31 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title Bespoke.js Webpack Boilerplate
+
+  body
+
+    article
+      div
+        h1 Bespoke.js
+
+      div(data-bespoke-backdrop='orion')
+        h2 Webpack Boilerplate
+
+      div
+        ul
+          li Babel
+          li Pug
+          li Stylus
+
+      div
+        h3 Enjoy!
+
+
+
+    script(src='/index.js')
+
+    if process.env.NODE_ENV !== 'production'
+      script(src='/webpack-dev-server.js')
